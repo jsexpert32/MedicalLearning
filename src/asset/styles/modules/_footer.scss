@@ -1,0 +1,48 @@
+.main-footer{
+  background: $footer-bg;
+  margin-top: 100px;
+  position: relative;
+  padding-top: 30px;
+  .footer-inner{
+    margin-top: -50px;
+  }
+  a{
+    color:$white;
+  }
+  &:before{
+     content:'';
+     background: $footer-bg;
+     position: absolute;
+     top:-48px;
+     left: -6px;
+     width:105%;
+     height: 100px;
+     @include css3(transform, rotate(4deg));
+   }
+  &:after{
+    content:'';
+    background: rgba($gray-light,0.4);
+    position: absolute;
+    top:-48px;
+    left: -6px;
+    width:105%;
+    height: 100px;
+    @include css3(transform, rotate(-4deg));
+    z-index: -1;
+  }
+  .footer-inner{
+    color:$white;
+  }
+  .footer-bottom{
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px rgba($gray-lighter,0.4) solid;
+    padding-top: 20px;
+
+  }
+  .info{
+    h1{
+      margin-top: 0;
+    }
+  }
+}

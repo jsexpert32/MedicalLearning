@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="256px" viewBox="0 0 130 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(0.000000, -2583.000000)">
+            <g id="Group-16" transform="translate(-100.000000, 2583.000000)">
+                <path d="M218,118 L20,128.995209 L66.5884007,263 L218,231.388995 L218,118 Z M33.0221221,137.978184 L209.370709,128.18524 L209.370709,223.082052 L72.5410897,251.649152 L33.0221221,137.978184 Z" id="Page-1" fill="#7BBFF3" transform="translate(119.000000, 190.500000) scale(-1, 1) rotate(22.000000) translate(-119.000000, -190.500000) "></path>
+                <path d="M230,96.5 C230,100.089486 227.089978,103 223.499683,103 C219.910022,103 217,100.089486 217,96.5 C217,92.910514 219.910022,90 223.499683,90 C227.089978,90 230,92.910514 230,96.5" id="Fill-1" fill="#DC317F"></path>
+                <path d="M216,11.5 C216,17.8510264 210.851026,23 204.5,23 C198.148974,23 193,17.8510264 193,11.5 C193,5.14897363 198.148974,0 204.5,0 C210.851026,0 216,5.14897363 216,11.5" id="Fill-3" fill="#F60000"></path>
+                <polygon id="Fill-10" fill="#0063F7" transform="translate(126.500000, 53.500000) rotate(-43.000000) translate(-126.500000, -53.500000) " points="139 49.238523 130.761477 49.238523 130.761477 41 122.238523 41 122.238523 49.238523 114 49.238523 114 57.761477 122.238523 57.761477 122.238523 66 130.761477 66 130.761477 57.761477 139 57.761477"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

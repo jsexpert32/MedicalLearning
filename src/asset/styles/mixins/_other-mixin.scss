@@ -1,0 +1,46 @@
+%listreset {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+%content-after{
+  content:'';
+  display:block;
+  clear:both;
+
+}
+// some CSS3 style
+@mixin css3($property, $value) {
+  @each $prefix in -webkit-, -moz-, '' {
+    #{$prefix}#{$property}: $value;
+  }
+}
+
+%btn-common{
+  text-align: left !important;
+  position: relative;
+  color: $white;
+  padding: 10px 16px 10px 55px !important;
+  @include css3(transition,0.8s all ease-in-out);
+
+  &:before{
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top:0;
+    text-align: center;
+    width: 45px;
+    height: 100%;
+    font-size: 25px;
+  }
+}
+
+
+// flex
+@mixin flex ($flex: 1) {
+  -webkit-flex: $flex;
+  -ms-flex: $flex;
+  flex: $flex;
+}
+

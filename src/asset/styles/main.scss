@@ -1,0 +1,20 @@
+@import "base/custom-variables";
+@import "mixins/other-mixin";
+@import "base/base";
+
+//plugins
+@import "plugins/font-awesome";
+@import "plugins/swiper";
+@import "plugins/sweetalert2";
+
+@import "modules/common";
+@import "modules/header";
+@import "modules/footer";
+@import "modules/emails";
+@import "modules/homepage";
+@import "modules/dashboard";
+@import "modules/form";
+
+
+
+

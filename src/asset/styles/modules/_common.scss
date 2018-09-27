@@ -1,0 +1,117 @@
+//Typography
+.text-white{
+  color:$white !important;
+}
+
+.main-title{
+  font-size: 36px;
+  color:$brand-blue;
+  margin: 0 0 32px;
+  font-weight: 600;
+}
+
+
+//grid
+.row{
+  &.collapsed{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+//utilities
+.mgbtm-30{
+  margin-bottom: 30px;
+}
+.mgbtm-0{
+  margin-bottom: 0;
+}
+
+
+.icon-container{
+  @include css3(display, flex);
+  @include css3(flex-direction,row);
+  h2{
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+  .icon-holder{
+    @include flex(1);
+    margin-left: 20px;
+  }
+  .icon-content-holder{
+    @include flex(4);
+    text-align: right;
+
+  }
+
+  &.dir-right{
+    @include css3(flex-direction,row-reverse);
+    .icon-content-holder{
+      text-align: left;
+    }
+    .icon-holder{
+      margin-left: 0;
+    }
+  }
+}
+
+.social-networks{
+  @extend %listreset;
+  @extend %content-after;
+  li{
+    display: inline-block;
+    margin-left: 10px;
+    a{
+      display: block;
+      background: $white;
+      color:$gray-base;
+      @include css3(border-radius,50%);
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 40px;
+    }
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+}
+.btn-gplus{
+  @extend %btn-common;
+  @include gradient-vertical(#F0826B,  #DD4B39,  0%, 100%);
+  border-color: #DD4B39;
+  @include css3(transition,0.8s all ease-in-out);
+  &:hover{
+    @include gradient-vertical(#F0826B,  #DD4B39,  50%, 100%);
+    color: $white;
+  }
+  &:before{
+    content: '\F0D5';
+    border-right:1px #CB3F2D solid;
+  }
+}
+
+.btn-fb{
+  @extend %btn-common;
+  border-color: #3B5998;
+  @include gradient-vertical(#6D92C9,  #3B5998,  0%, 100%);
+
+  &:hover{
+    @include gradient-vertical(#6D92C9,  #3B5998,  50%, 100%);
+    color: $white;
+  }
+
+  &:before{
+    content: '\F09A';
+    border-right:1px #284A91 solid;
+  }
+
+}
+
+.form-control{
+  &.has-error{
+    border:1px $brand-danger solid;
+  }
+}

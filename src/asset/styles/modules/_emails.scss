@@ -1,0 +1,44 @@
+.email-verification {
+  > div {
+    margin: 100px auto 160px auto;
+    max-width: 830px;
+    height: 280px;
+    background: $white;
+    @include css3(border-radius,5px);
+    @include css3(box-shadow,3px 3px 3px 3px #eeeaea);
+    padding: 20px 30px 10px 30px;
+  }
+  .mail-icon {
+    display: inline-block;
+    width: 120px;
+  }
+  .verification-body {
+    margin-top: 20px;
+    > div {
+      display: inline-block;
+      margin-left: 20px;
+    }
+  }
+
+}
+
+.forgot-password {
+
+  > div {
+    margin: 100px auto 160px auto;
+    width: 520px;
+    border: 1px solid $gray-lighter;
+    background: rgba($gray-lighter,0.5);
+    @include css3(border-radius,5px);
+    @include css3(box-shadow,3px 3px 3px 3px #eeeaea);
+    padding: 10px;
+  }
+  .description {
+    margin-bottom: 5px;
+    > span {
+      font-size: 14px;
+      line-height: 1.8em;
+    }
+  }
+
+}

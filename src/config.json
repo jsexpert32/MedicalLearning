@@ -1,0 +1,12 @@
+{
+  "auth": {
+    "google": {
+      "clientId": "252338789619-pse3bligdo7hh61375ot3ca4um88p2qd.apps.googleusercontent.com",
+      "clientSecret": "n77iCiAdYTqkSGLnbizJohY0"
+    },
+    "facebook": {
+      "clientId": "1082628395173055",
+      "clientSecret": "9e910108efe013ba58b31240a2373547"
+    }
+  }
+}
